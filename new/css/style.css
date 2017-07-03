@@ -35,7 +35,7 @@ h2,h3 {
 }
 
 hr {
-  border-color: #f2af00;
+  border-color: #407ccb;
   margin: 0;
   opacity: 0.3;
 }
@@ -58,7 +58,7 @@ img:hover {
     margin: 0 !important;
   }
 .navbar-default .navbar-brand {
-    background: #dc5034;
+    background: #80a8dd;
     color: #fff;
     font-weight: bold;
     font-size: 30px;
@@ -72,7 +72,7 @@ img:hover {
     -ms-transition: all 0.4s ease-in-out;
    }
 .navbar-brand:hover, .navbar-brand:clicked {
-  background: dc5034;
+  background: 80a8dd;
 }
 .navbar-default .navbar-nav li a {
     border-right: 1px solid #f9f9f9;
@@ -90,12 +90,12 @@ img:hover {
 .navbar-default .navbar-nav > li > a:clicked,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #f2af00;
+  color: #407ccb;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #f2af00;
+  color: #407ccb;
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
@@ -103,7 +103,7 @@ img:hover {
     padding-top: 30px;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background: #dc5034;
+    background: #80a8dd;
     border-color: transparent;
 }
 .navbar-default .navbar-toggle:hover,
@@ -113,15 +113,15 @@ img:hover {
 
 /* home section */
 #home {
-  background: url('../images/home-bg.jpg')no-repeat;
+  background: url('../images/home-bg-steam.jpg')no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 600px;
-  padding-top: 220px;
+  padding-top: 90px;
   padding-bottom: 100px;
 }
 #home h1 {
-  color: #f2af00;
+  color: #407ccb;
   font-weight: 300;
   padding-bottom: 10px;
 }
@@ -139,14 +139,14 @@ img:hover {
   padding-top: 14px;
   width: 200px;
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 0px;
    transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
 }
 #home .btn:hover {
-  background: #dc5034;
+  background: #80a8dd;
   border-color: transparent;
   color: #fff;
 }
@@ -157,16 +157,16 @@ img:hover {
   padding-bottom: 80px;
 }
 #service h2 {
-  border-left: 2px solid #f2af00;
+  border-left: 2px solid #407ccb;
   display: inline-block;
   padding: 20px;
 }
 #service .fa {
-  border-top: 3px solid #f2af00;
-  border-bottom: 3px solid #dc5034;
+  border-top: 3px solid #407ccb;
+  border-bottom: 3px solid #80a8dd;
   border-radius: 50%;
   font-size: 32px;
-  color: #dc5034;
+  color: #80a8dd;
   text-align: center;
   vertical-align: middle;
   margin-top: 50px;
@@ -180,7 +180,7 @@ img:hover {
   padding-bottom: 80px;
 }
 #about h2 {
-  border-right: 2px solid #f2af00;
+  border-right: 2px solid #407ccb;
   display: inline-block;
   padding: 10px 20px 10px 10px;
 }
@@ -202,7 +202,7 @@ img:hover {
   padding-bottom: 100px;
 }
 #team h2 {
-  border-left: 2px solid #f2af00;
+  border-left: 2px solid #407ccb;
   display: inline-block;
   padding: 10px 10px 10px 20px;
 }
@@ -225,7 +225,7 @@ img:hover {
   padding-bottom: 60px;
   }
 #portfolio h2 {
-  border-right: 2px solid #f2af00;
+  border-right: 2px solid #407ccb;
   display: inline-block;
   padding: 10px 20px 10px 10px;
 }
@@ -256,7 +256,7 @@ img:hover {
 .filter-wrapper li a.selected,
 .filter-wrapper li a:focus,
 .filter-wrapper li a:hover {
-    background: #f2af00;
+    background: #407ccb;
     border-color: transparent;
     color: #ffffff;
   }
@@ -302,7 +302,7 @@ img:hover {
   text-align: center;
 }
 #pricing h2 {
-  border-left: 2px solid #f2af00;
+  border-left: 2px solid #407ccb;
   display: inline-block;
   padding: 10px 10px 10px 20px;
 }
@@ -341,7 +341,7 @@ img:hover {
     -ms-transition: all 0.4s ease-in-out;
 }
 #pricing .plan .btn:hover {
-  background: #f2af00;
+  background: #407ccb;
   border-color: transparent;
 }
 
@@ -352,7 +352,7 @@ img:hover {
   text-align: center;
 }
 #contact h2 {
-  border-right: 2px solid #f2af00;
+  border-right: 2px solid #407ccb;
   display: inline-block;
   padding: 10px 20px 10px 10px;
   margin-bottom: 60px;
@@ -381,7 +381,7 @@ img:hover {
     -ms-transition: all 0.4s ease-in-out;
 }
 #contact input[type="submit"]:hover {
-  background: #f2af00;
+  background: #407ccb;
   border-color: transparent;
 }
 #contact p {
@@ -441,7 +441,7 @@ footer span {
     -ms-transition: all 0.4s ease-in-out;
 }
 .social-icons li a:hover {
-  background: #f2af00;
+  background: #407ccb;
 }
 
 /* copyright section */
@@ -454,7 +454,7 @@ footer span {
 /* scrolltop section */
 .go-top 
   {
-    background-color: #f2af00;
+    background-color: #407ccb;
     font-size: 26px;
     bottom: 2em;
     right: 2em;
