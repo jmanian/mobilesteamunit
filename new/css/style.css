@@ -151,27 +151,16 @@ img:hover {
   color: #fff;
 }
 
-/* service section */
-#service {
-  padding-top: 100px;
-  padding-bottom: 80px;
-}
-#service h2 {
-  border-left: 2px solid #407ccb;
-  display: inline-block;
-  padding: 20px;
-}
-#service .fa {
-  border-top: 3px solid #407ccb;
-  border-bottom: 3px solid #80a8dd;
-  border-radius: 50%;
-  font-size: 32px;
-  color: #80a8dd;
+/* portfolio section */
+#portfolio {
   text-align: center;
-  vertical-align: middle;
-  margin-top: 50px;
-  margin-bottom: 15px;
-  padding: 40px;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  }
+#portfolio h2 {
+  border-right: 2px solid #407ccb;
+  display: inline-block;
+  padding: 10px 20px 10px 10px;
 }
 
 /* about section */
@@ -218,17 +207,29 @@ img:hover {
   padding: 15px;
 }
 
-/* portfolio section */
-#portfolio {
-  text-align: center;
-  padding-top: 80px;
-  padding-bottom: 60px;
-  }
-#portfolio h2 {
-  border-right: 2px solid #407ccb;
-  display: inline-block;
-  padding: 10px 20px 10px 10px;
+/* service section */
+#service {
+  padding-top: 100px;
+  padding-bottom: 80px;
 }
+#service h2 {
+  border-left: 2px solid #407ccb;
+  display: inline-block;
+  padding: 20px;
+}
+#service .fa {
+  border-top: 3px solid #407ccb;
+  border-bottom: 3px solid #80a8dd;
+  border-radius: 50%;
+  font-size: 32px;
+  color: #80a8dd;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  padding: 40px;
+}
+
 /* FILTER CSS */
 .filter-wrapper {
     width: 100%;
