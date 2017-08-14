@@ -217,6 +217,9 @@ img:hover {
   display: inline-block;
   padding: 20px;
 }
+#service .col-md-12 {
+  text-align: center;
+}
 #service .fa {
   border-top: 3px solid #407ccb;
   border-bottom: 3px solid #80a8dd;
