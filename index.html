@@ -1,120 +1,350 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Mobile Steam Unit</title>
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <!-- I haven't eaten all day. -->
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<title>Mobile Steam Unit</title>
+<!--
+
+Template 2080 Minimax
+
+http://www.tooplate.com/view/2080-minimax
+
+-->
+	<!-- stylesheet css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/nivo-lightbox.css">
+	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- google web font css -->
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>
+
 </head>
+<body data-spy="scroll" data-target=".navbar-collapse">
+	
+<!-- navigation -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
+			<a href="#home" class="navbar-brand smoothScroll">
+				<img src="images/msu-logo.png" class="img-responsive" style="max-width:160px"></img>
+			</a>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#home" class="smoothScroll">HOME</a></li>
+				<li><a href="#portfolio" class="smoothScroll">PRODUCTS</a></li>
+				<li><a href="#about" class="smoothScroll">ABOUT</a></li>
+				<li><a href="#service" class="smoothScroll">SERVICE</a></li>
+				<li><a href="#pricing" class="smoothScroll">PRICE</a></li>
+				<li><a href="#contact" class="smoothScroll">CONTACT</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
 
-<style type='text/css'>
-*{
-    font-family:"Courier New", Courier, monospace;
-    font-size:30px;
-    color:red;
-}
+<!-- home section -->
+<div id="home">
+	<div class="container">
+		<!-- <div class="row">
+			<div class="col-md-offset-6 col-md-6 col-sm-offset-6 col-sm-6">
+				<h2>Welcome to</h2>
+				<h1><strong>Mobile Steam</strong> Unit</h1>
+				<p>Where we place people before technology</p>
+				<a href="#portfolio" class="btn btn-default smoothScroll">GET STARTED</a>
+			</div>
+		</div> -->
+	</div>
+</div>
 
-body{
-    background-color:black;
-    background-image:url(images/stars.bmp);
-}
+<!-- portfolio section -->
+<div id="portfolio">
+	<div class="container">
+		<div class="row" style="padding-bottom: 60px">
+			<div class="col-md-12 col-sm-12">
+				<div class="title">
+					<h2>Our Products</h2>
+				</div>
+			</div>
+		</div>
+		<div class="row" style="padding-bottom: 60px">
+			<div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UpcTa5ENh0c" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-sm-6">
+				<iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=4071111726/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://mobilesteamunit.bandcamp.com/album/tank">Tank by Mobile Steam Unit</a></iframe>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=1354514758/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://mobilesteamunit.bandcamp.com/album/country-raw">Country Raw by Mobile Steam Unit</a></iframe>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=3908545753/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://mobilesteamunit.bandcamp.com/album/safe-for-now">Safe for Now by Mobile Steam Unit</a></iframe>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=234235500/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://mobilesteamunit.bandcamp.com/album/not-in-service">Not in Service by Mobile Steam Unit</a></iframe>
+			</div>
+		</div>
+	</div>
+</div>
 
-p{
-    background-color:rgb(173,173,173);
-    color:black;
-    font-size:20px;
-    max-width: 700px;
-}
+<!-- divider section -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-1 col-sm-1"></div>
+		<div class="col-md-10 col-sm-10">
+			<hr>
+		</div>
+		<div class="col-md-1 col-sm-1"></div>
+	</div>
+</div>
 
-a{
-    color:yellow;
-}
+<!-- about section -->
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<h2>Mobile Steam Unit Story</h2>
+			</div>
+			<div class="col-md-6 col-sm-6">
+				<img src="images/about-img-steam.jpg" class="img-responsive" alt="about img">
+			</div>
+			<div class="col-md-6 col-sm-6">
+				<h3>ABOUT US</h3>
+				<h4>Mobile Steam Unit is an elite product-development team with a mission.</h4>
+				<p>Formed in 2014, the Unit was assembled by the United States Environmental Protection Agency (EPA) to investigate possible alternatives to dredging as a method of remediating the tremendous pollution factors ailing Brooklyn’s Gowanus Canal. After months of research and experimentation, we invented a technology which could heat the toxic canal water to the point of purification by performing a specific sequence of sonic actions that could vaporize liquid—in short a sort of <strong>“steam cleaning.”</strong></p>
+				<p>Unfortunately, marred by narrow-mindedness and corrupt bureaucratic dealings, the EPA rejected our proposed revolutionary technology. After taking some time to lick our wounds, we hit the road in 2016 to showcase our beloved prototype at a series of small expos, bars, and restaurants throughout the New York tri-state area and New England. In 2017, heartened by this experience, we incorporated.</p>
+				<p>We are now in the office full time, seeking myriad patents and international recognition.</p>
+			</div>
+		</div>
+	</div>
+</div>
 
-h1{
-    font-size:36px;
-}
-</style>
+<!-- divider section -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-1 col-sm-1"></div>
+		<div class="col-md-10 col-sm-10">
+			<hr>
+		</div>
+		<div class="col-md-1 col-sm-1"></div>
+	</div>
+</div>
 
-<body>
-    <center>
-        <h1>
-            Hello, we are Mobile Steam Unit.
-        </h1>
+<!-- team section -->
+<div id="team">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<h2>People Behind the Firm</h2>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<img src="images/sam.jpg" class="img-responsive" alt="team img">
+				<h3>Sam Huntington</h3>
+				<h4>VP Marketing</h4>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<img src="images/pat.jpg" class="img-responsive" alt="team img">
+				<h3>Patrick Manian</h3>
+				<h4>Director of Operations</h4>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<img src="images/jeff.jpg" class="img-responsive" alt="team img">
+				<h3>Jeff Manian	</h3>
+				<h4>Chief Engineer</h4>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<img src="images/dan.jpg" class="img-responsive" alt="team img">
+				<h3>Dan Manian</h3>
+				<h4>VP Product</h4>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<img src="images/aaron.jpg" class="img-responsive" alt="team img">
+				<h3>Aaron Younce</h3>
+				<h4>Major Infrastructure</h4>
+			</div>
+		</div>
+	</div>
+</div>
 
-        <p>
-            Welcome to our home on the world wide web!
-            <br><br>
-            <span style="color:rgb(0,44,113);font-style:italic;">
-                Quite striking.
-            </span>
-            <br><br>
-            Blast with Steam<br>
-            Make It Clean
-        </p>
+<!-- divider section -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-1 col-sm-1"></div>
+		<div class="col-md-10 col-sm-10">
+			<hr>
+		</div>
+		<div class="col-md-1 col-sm-1"></div>
+	</div>
+</div>
 
-        <div id="links">
-            Please visit:<br>
-            <a href="https://mobilesteamunit.bandcamp.com/" target="_blank">our bandcamp</a> //
-            <a href="https://www.facebook.com/mobilesteamunit" target="_blank">our facebook</a> //
-            <a href="https://instagram.com/mobilesteamunit/" target="_blank">our instagram</a><br>
-            @mobilesteamunit
-        </div>
-        <br>
+<!-- service section -->
+<div id="service">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<h2>Our Workflow</h2>
+			</div>
+			<div class="col-md-4 col-sm-4">
+				<i class="fa fa-cubes"></i>
+				<h3>Research</h3>
+				<p>Discover the needs of the customer and why current solutions fall short.</p>
+			</div>
+			<div class="col-md-4 col-sm-4">
+				<i class="fa fa-cogs"></i>
+				<h3>Design</h3>
+				<p>Use an iterative, user-centered design process to design products people love.</p>
+			</div>
+			<div class="col-md-4 col-sm-4">
+				<i class="fa fa-group"></i>
+				<h3>Implement</h3>
+				<p>Utilize our team's breadth of expertise and attention to detail to make it just right.</p>
+			</div>
+		</div>
+	</div>
+</div>
 
-        <!-- MSU bang bang bang -->
-        <img src="images/msu_spin.gif"/>
+<!-- divider section -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-1 col-sm-1"></div>
+		<div class="col-md-10 col-sm-10">
+			<hr>
+		</div>
+		<div class="col-md-1 col-sm-1"></div>
+	</div>
+</div>
 
-        <br>
-        <!-- The genie takes you to the bridge -->
-        <a href="images/bridge-reenactment.jpg" target="_blank" title="Where's that confounded bridge?"><img src="images/genie.gif"/></a>
-        <br><br>
-        
-        Biography<br>
-        <div style="border:8px groove brown">
-            <p>
-                January 2014. Early morning.
-                <br><br><br>
-                EPA dirty-water technician Doug Renegleis (pronounced re-nuh-GLESE) awoke from his beach-chair snooze at the edge of the Gowanus Canal to the buzzing of his phone.
-                <br><br>
-                It was an email.
-                <br><br>
-                Lab tests on the prior week's collection of Gowanus Canal sludge had uncovered unprecedented levels of ununseptium (element 117 in the periodic table), a highly radioactive evaporation residue resulting from the fusion of calcium and berkelium.
-                <br><br>
-                "What?" Renegleis muttered to himself. "That's impossible."
-                <br><br>
-                Renegleis was turning the phone over in his hand, trying to wrap his mind around the findings, when suddenly a growl came from the canal. Sprinting over to the edge, Renegleis arrived just in time to see what could only have been some type of hallucination: two giant construction workers, possibly twins, heaving mightily at a thick rope the end of which was tied to a hulking mess of goop and metal slowly emerging from the water. Renegleis strained his eyes into focus, the twins strained their muscles, and slowly the instrument revealed itself. Could it be? A giant bear trap.
-                <br><br>
-                On that cold January night Renegleis wrote a short a poem. Then BOOM.
-                <br><br>
-                $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-                <br><br>
-                In March of that same year four men were found inside a recently pressure-washed subway car, alive but unconscious, piled in a corner by the motorman's booth and enveloped in a sopping mess of frayed quarter-inch cables and black mayonnaise. Their ranks included a prominent luthier, a Zen HVAC technician, a retired garbage man, and a software rocketeer. Terrified that these men were the victims of some foul chemical experiment, the NYCTA workers turned their power washers on the crumpled bodies and let it rip.
-                <br><br>
-                Steam filled the car. The sound of yelling, wild laughter.
-                <br><br>
-                Minutes later, they emerged. Cleansed. Ready.
-                <br><br>
-                "Where's my keyboard?" said one.
-                "I don't know," said another. "But I think we're late for practice."
-                <br><br>
-                This is Mobile Steam Unit.
-                <br>
-                <img src="images/cat_hammock.gif"/>
-                <br>
-                Blast with Steam<br>
-                Make It Clean
-            </p>
-        </div>
-        <!-- maybe not anymore
-        <div style='height:100px; text-align:center'>
-            <img src='images/counter.gif'/><img src='images/ns_logo.gif'/><img src='images/ie_logo.gif'/><img src='images/noframes.gif'/><img src='images/notepad.gif'/>
-        </div>
-        -->
-        <br>
-        <!-- THE DOOM GUYS -->
-        <marquee scrollamount=120 behavior="alternate">The Doom Guys</marquee>
-        <img src="images/cach.gif" title="Gowanus slime ball cach alfa"/><img src="images/cach.gif" title="Gowanus slime ball cach bravo"/><a href="http://youtu.be/gKHOiTE_2sM" target="_blank"><img src="images/cach.gif" title="Gowanus slime ball cach charlie"/></a><img src="images/cach.gif" title="Gowanus slime ball cach delta"/><img src="images/cach.gif" title="Gowanus slime ball cach echo"/><a href="http://youtu.be/QJzveo6IBsU" target="_blank"><img src="images/cach.gif" title="Gowanus slime ball cach foxtrot"/></a><img src="images/cach.gif" title="Gowanus slime ball cach golf"/><img src="images/cach.gif" title="Gowanus slime ball cach hotel"/><img src="images/cach.gif" title="Gowanus slime ball cach india"/>
-        <!-- END OF THE DOOM GUYS -->
+<!-- pricing section -->
+<div id="pricing">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<h2>Our Pricing</h2>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-10">
+				<div class="plan">
+					<div class="plan-title">
+						<h3>Starter</h3>
+						<small>$100 per month</small>
+					</div>
+					<ul>
+						<li>10 TB BANDWIDTH</li>
+						<li>10 BASIC THEMES</li>
+						<li>24-HOUR RESPONSE</li>
+					</ul>
+					<a href="original"><button class="btn btn-warning">Sign Up</button></a>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-10">
+				<div class="plan">
+					<div class="plan-title">
+						<h3>Business</h3>
+						<small>$350 per month</small>
+					</div>
+					<ul>
+						<li>50 TB BANDWIDTH</li>
+						<li>50 PRO THEMES</li>
+						<li>1-HOUR RESPONSE</li>
+					</ul>
+					<a href="http://youtu.be/gKHOiTE_2sM" target="_blank"><button class="btn btn-warning">Sign Up</button></a>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-10">
+				<div class="plan">
+					<div class="plan-title">
+						<h3>Advanced</h3>
+						<small>$500 per month</small>
+					</div>
+					<ul>
+						<li>100 TB BANDWIDTH</li>
+						<li>100 PREMIUM THEMES</li>
+						<li>30-MIN RESPONSE</li>
+					</ul>
+					<a href="http://youtu.be/QJzveo6IBsU" target="_blank"><button class="btn btn-warning">Sign Up</button></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
-    </center>
+<!-- divider section -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-1 col-sm-1"></div>
+		<div class="col-md-10 col-sm-10">
+			<hr>
+		</div>
+		<div class="col-md-1 col-sm-1"></div>
+	</div>
+</div>
+
+<!-- footer section -->
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-6">
+				<h2>Keep in Touch</h2>
+				<ul class="social-icons">
+					<li><a href="https://mobilesteamunit.bandcamp.com/" target="_blank" class="fa fa-bandcamp"></a></li>
+					<li><a href="https://www.facebook.com/mobilesteamunit/" target="_blank" class="fa fa-facebook"></a></li>
+					<li><a href="https://www.instagram.com/mobilesteamunit/" target="_blank" class="fa fa-instagram"></a></li>
+					<li><a href="mailto:mobile.steam.unit@gmail.com" target="_blank" class="fa fa-envelope"></a></li>
+					<li><a href="tel:+18006249897" target="_blank" class="fa fa-phone"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- divider section -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-1 col-sm-1"></div>
+		<div class="col-md-10 col-sm-10">
+			<hr>
+		</div>
+		<div class="col-md-1 col-sm-1"></div>
+	</div>
+</div>
+
+<!-- copyright section -->
+<div class="copyright">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<p>Copyright &copy; 2017 Mobile Steam Unit</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- scrolltop section -->
+<a href="#top" class="go-top"><i class="fa fa-angle-up"></i></a>
+
+
+<!-- javascript js -->	
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>	
+<script src="js/nivo-lightbox.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/jquery.nav.js"></script>
+<script src="js/imagesloaded.min.js"></script>
+<script src="js/custom.js"></script>
+
 </body>
 </html>
