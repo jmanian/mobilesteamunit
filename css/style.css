@@ -7,11 +7,11 @@ http://www.tooplate.com/view/2080-minimax
 */
 
 body
-	{
-		background: #fff;
-		font-family: 'lane_-_narrowregular', sans-serif;
+  {
+    background: #fff;
+    font-family: 'lane_-_narrowregular', sans-serif;
     line-height: 30px;
-	}
+  }
 
 @font-face {
     font-family: 'lane_-_narrowregular';
@@ -66,7 +66,7 @@ img:hover {
     height: 90px;
     margin: 0;
     padding: 10px 20px 40px 20px;
-	transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
@@ -81,8 +81,8 @@ img:hover {
     padding-right: 40px;
     padding-left: 40px;
     line-height: 60px;
-	
-	transition: all 0.4s ease-in-out;
+  
+  transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
@@ -207,7 +207,7 @@ img:hover {
   padding: 10px 10px 10px 20px;
 }
 #team h4 {
-	padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 #team .col-md-12 {
   text-align: center;
@@ -362,7 +362,7 @@ footer span {
     height: 60px;
     line-height: 58px;
     text-align: center;
-	transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
@@ -370,7 +370,7 @@ footer span {
 .go-top:hover
   {
     background-color: #444;
-	color: #fff;
+  color: #fff;
   }
 
 /* media 960 */
